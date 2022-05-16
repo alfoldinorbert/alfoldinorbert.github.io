@@ -1,0 +1,186 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Norbert Alföldi
+title: Senior Software Engineer
+email: alfoldi.norbert@gmail.com
+website: alfoldinorbert.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: alfoldinorbert
+github_username:  alfoldinorbert
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: norbert-alföldi-b6702b199
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile5.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Norbert and I'm a senior software engineer.
+
+  I'm most skilled in <mark>iOS</mark> development using <mark>Swift</mark> and <mark>Objective-C</mark>.
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    - layout: left
+      title: IBM Budapest Lab
+      link: https://video.ibm.com
+      sub_title: Senior iOS Engineer
+      caption: January 2016 - Present
+      quote: >
+        IBM Budapest Lab was established in 2016 through the acquisition of Ustream, Inc. Currently about 200 people work in the Lab for IBM Watson Media, Cloud Platform, and Enterprise & Technology Security.
+      description: |
+        There are some highlights below of what projects I've been working on at IBM Budapest Lab.
+
+        **Web broadcaster**: I've organized a two-day hackathon to build a video streaming app for the web with WebAssembly to replace the company's deprecated Flash based web broadcaster. The hackathon was successful, we managed to compile and use our team's native video streaming codebase on the web.
+        
+        **Co-host feature**: Our team of three developers created a co-host feature for IBM's native macOS Video Streaming SDK. This feature enables content creators to stream their conference calls onto IBM's platform.
+
+        **Fortnite embedded player**: I was part of the team which created a [live video player](https://www.epicgames.com/fortnite/en-US/news/stream-the-fortnite-world-cup-finals-in-fortnite) for the Fornite World Cup. Our team received IBM's Outstanding Technical Achievement Award for this project.
+        
+        **Chat client**: I built an iOS client for IBM's in-house [chat platform](https://blog.video.ibm.com/streaming-product-updates/enterprise-video-chat-integration-module). A few years later product management decided to replace in-house components with third party providers to reduce development cost, I also took part of the replacement project.
+
+        **Newsfeed feature**: With a fellow iOS developer we created an advanced [video prebuffering feature for IBM's iOS Player SDK](https://blog.video.ibm.com/streaming-product-updates/create-video-news-feeds-using-player-sdks). This feature makes it possible for content creators to embed any number of video players in a scrollable feed where playback will start instantly when it scrolls into the viewport.
+        
+        <mark>iOS</mark> <mark>macOS</mark> <mark>Swift</mark> <mark>Objective-C</mark> <mark>C/C++</mark> <mark>Video Streaming</mark> <mark>HTTP Live Streaming</mark> <mark>WebAssembly</mark>
+      
+    - layout: left
+      title: Ustream
+      link: https://www.ibm.com/blogs/cloud-archive/2016/01/ibm-acquires-ustream/
+      link_text: IBM Acquires Ustream
+      sub_title: Senior iOS Engineer
+      caption: July 2009 - January 2016
+      quote: >
+        Ustream was a live video streaming startup which is now a division of IBM. Prior to the IBM acquisition, it had more than 180 employees across San Francisco, Los Angeles, and Budapest offices.
+      description: |
+        My first ever fulltime job. I joined Ustream at a very early stage, I was the 25th employee.
+        
+        **Enterprise app**: I built the first version of [Ustream's enterprise app](https://blog.video.ibm.com/streaming-product-updates/secure-video-app-for-enterprise-streaming-comms) for the company's internal communication product.
+
+        **Complete rewrite**: With a fellow iOS developer we completely rewrote the whole iOS codebase.
+
+        **Media app for iPad**: I was part of the team which created the iPad version of [Ustream's media app](https://techcrunch.com/2011/07/26/ustream-lands-on-the-ipad-gives-couch-potatoes-the-perfect-soapbox).
+
+        **Live mobilizer platform**: I was part of the team which created a platform for [autogenerated mobile apps](https://techcrunch.com/2010/06/17/ustreams-live-mobilizer-gives-bands-and-brands-live-streaming-iphone-apps). This platform made it possible to create native mobile apps with a web based editor.
+
+        <mark>iOS</mark> <mark>tvOS</mark> <mark>Swift</mark> <mark>Objective-C</mark> <mark>C/C++</mark> <mark>Video Streaming</mark> <mark>HTTP Live Streaming</mark>
+    - layout: left
+      title: Dual Display
+      sub_title: Founder
+      caption: December 2008 - June 2009
+      quote: >
+        My first ever startup idea.
+      description: |
+        In 2008, after graduating from university I started to work on a startup project. The idea was to create an application that can attach an iPhone's screen as a secondary display to a desktop computer. I built a prototype for Windows XP/OS X Leopard on server side and for the iPhone OS on client side. When I applied for a fulltime job at Ustream I thought I could finish and release this product in my spare time, but I never managed to get there for two reasons. First, Ustream had some really interesting challanges and in my spare time I started to work on those. Second, with the launch of iPad in 2010 the idea became much more obvious and other companies provided excellent solutions I couldn't be able to compete with on my own.
+
+        There is a [video in the projects section](#dual-display-app) that shows how far I got with the idea.
+      
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Budapest University of Technology and Economics
+        link: https://www.bme.hu/?language=en
+        caption: 2003 - 2008
+        sub_title: MSc Computer Science
+        quote: >
+          The Budapest University of Technology and Economics (BME) is a prestigious higher education institution in Hungary. In the Hungarian higher education rankings the university’s technology and informatics degree programmes take the first place, and the sciences and economics degree programmes are among the best ones.  
+        
+  - title: Languages
+    layout: list
+    content:
+      - layout: left
+        title: Hungarian
+        sub_title: Native or bilingual proficiency
+      - layout: left
+        title: English
+        sub_title: Professional working proficiency
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Fortnite Video Player
+        description: | # this will include new lines to allow paragraphs
+          Fortnite is an online video game developed by Epic Games. In 2019, Epic Games organized a Fortnite World Cup event for which they selected IBM Budapest Lab as the provider of live video streaming. We put together a team of three engineers from the Lab and two contractors to implement a live video player from scratch for the Unreal Engine platform to be embedded in the game.
+          
+          I recorded the video below during the World Cup. The popup window is the published version of the Fornite game running our embedded video player, and in the background I'm running the same live content in my IDE to test that the two players are in perfect sync.
+          
+          <div align="center"><iframe src="https://player.vimeo.com/video/710840072?h=6658edfe26&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Fortnite Video Player"></iframe></div>
+      
+      - layout: top-middle
+        title: Math Solver App
+        description: | # this will include new lines to allow paragraphs
+          This is an early prototype of a math learning app. I was experimenting with the idea of recognizing handwritten math formulas to create an app which is able to understand what math problem the user is trying to solve. The app would be able to guide through the user on the way of solving the math problem. At this point the app only mirrors what it can understand from the handwritten input.
+          
+          <div align="center"><iframe src="https://player.vimeo.com/video/712647005?h=e1e17afcd0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Math Solver"></iframe></div>
+      
+      - layout: top-middle
+        title: Web Simulator
+        description: | # this will include new lines to allow paragraphs
+          I had an idea to build a platform which makes it possible to embed mobile apps into websites. The technology behind the platform was a server running an iOS simulator instance, and the simulator's display was being captured and streamed to the website. Events on the website was also being observed and sent back to the server (e.g. a mouse click got converted into a touch event). The video shows a possible use case where a localizable app is being embedded into a translation site, and whenever a string from the app gets a translation, the platform notifies the app about this event so it can show the translation in realtime.
+
+          <div align="center"><iframe src="https://player.vimeo.com/video/204766002?h=0a28845698&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="399" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Web Simulator"></iframe></div>
+      
+      - layout: top-middle
+        title: Dual Display App
+        quote: >
+          My first ever startup idea.
+        description: | # this will include new lines to allow paragraphs
+          <div align="center"><iframe src="https://player.vimeo.com/video/53456160?h=992ecf5c81&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Dual Display"></iframe></div>
+      
+      - layout: top-middle
+        title: Augmented Reality
+        quote: >
+          My master's thesis project built with OpenCV and OpenGL.
+        description: | # this will include new lines to allow paragraphs
+          <div align="center"><iframe src="https://player.vimeo.com/video/4727976?h=7280ae17c1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="600" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Augmented Reality"></iframe></div>
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
